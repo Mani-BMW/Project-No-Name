@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "IranSans";
+    src: url(../Fonts/IRANSansFaNum.eot),
+    url(../Fonts/IRANSansFaNum.svg),
+    url(../Fonts/IRANSansFaNum.ttf),
+    url(../Fonts/IRANSansFaNum.woff),
+    url(../Fonts/IRANSansFaNum.woff2);
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: no-repeat fixed url(../Images/t7b5j2cqpce21.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: IranSans;
+    color: white;
+    overflow: hidden;
+
+}
+.main-section{
+    height: 700px;
+    max-width: 550px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(37, 37, 37,0.95) ;
+    position: fixed;    
+}
+.inner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-heading{
+    margin-top: 20px;
+    text-align: center;
+}
+
+label{
+    font-size: larger;
+}
+form{
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    text-align: center;
+}
+.main-width{
+    width: 450px;
+}
+.login-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.signup-btn{
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.checkbox-label{
+    float: left;
+    margin-right: 35px;
+}
+footer{
+    position: relative;
+    top: 360px;
+}
+.instagram{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a img{
+    filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+a img:hover{
+    filter: grayscale(0%);
+    bottom: 5px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+p{
+    font-size:small ;
+}
+p a {
+    text-decoration: none;
+}
+.form-switch-div{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 5px;
+}
+.switch-input{
+    position: relative;
+    left: 46px;
+    bottom: 2px;
+}
+.signup-label{
+    position: relative;
+    right: 55px;
+}
+.login-label{
+    position: relative;
+}
+.signin-text,.login-text{
+    color: #0d6efd;
+}
+.signin-text:hover,.login-text:hover{
+    color: #0a58ca;
+    cursor: pointer;
+}
+.signup-form{
+    display: none;
+}
+.feedback{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+   
+    .main-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height:570px;
+    }
+    section img{
+        display: none;
+    }
+    .main-width{
+     
+     width: 250px;
+     }
+     .h3-heading{
+         margin-bottom:30px;
+         font-weight: bold;
+     }
+     .h3-heading-2{
+         font-weight: bold;
+     }
+     .h3-heading-2{
+        margin: 0;  
+     }
+     .inner-section-2{
+         position: relative;
+         bottom: 15px;
+     }
+     .signup-form label{   
+         font-size: small;
+     }
+     .signup-form input{
+         font-size: small;
+     }
+     .height-increase{
+         height: 600px;
+     }
+    .signup-btn{
+       
+         margin-top: 0px;
+     }
+     .login-btn{
+        position: relative;
+        top: 5px;
+    }
+    .mobile-login-status{
+        position: relative;
+        top: 300px;
+    }
+    .mobile-signup-status{
+        position: relative;
+        top: 310px;
+    }
+ }
+ 
